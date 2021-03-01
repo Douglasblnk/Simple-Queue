@@ -38,6 +38,7 @@ export default function Home() {
 
   const queueHandler = async () => {
     try {
+      setName('');
       setQueueList({ name });
       
       await joinQueue();
